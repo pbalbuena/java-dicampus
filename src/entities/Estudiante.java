@@ -45,6 +45,5 @@ public class Estudiante {
 	public void setAsignatura(String asignatura) {
 		this.asignatura = asignatura;
 	}
-	
-	
+
 }
