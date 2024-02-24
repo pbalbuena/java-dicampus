@@ -8,15 +8,21 @@ public class Bucles {
 		// Bucle for para imprimir los elementos del array
 		System.out.println("Bucle for:");
 		for (int i = 0; i < numeros.length; i++) {
-			System.out.println(numeros[i]);
+			System.out.print(numeros[i]);
 		}
 
 		// Bucle while para imprimir los elementos del array
 		System.out.println("\nBucle while:");
 		int j = 0;
 		while (j < numeros.length) {
-			System.out.println(numeros[j]);
+			System.out.print(numeros[j]);
 			j++;
+		}
+		
+		// Bucle for-each para imprimir los elementos del array
+		System.out.println("\nBucle for-each:");
+		for (int i : numeros) {
+			System.out.print(i);
 		}
 
 	}
