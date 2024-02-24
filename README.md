@@ -1,2 +1,2 @@
-# java-dicampus
-Proyecto Java para dicampus
+# Tutorial de Java
+Proyecto Java con elementos básicos para aprender desde cero.
